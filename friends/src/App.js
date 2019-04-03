@@ -5,10 +5,13 @@ import FriendList from "./component/FriendList";
 import styled from "styled-components";
 
 const Application = styled.div`
-width:1000px;
+width:600px;
+  padding:20px 0;
   margin: 0 auto;
   display:flex;
   flex-direction:row;
+  border:grey solid;
+  background:lightgrey;
 `;
 class App extends Component {
   constructor() {
